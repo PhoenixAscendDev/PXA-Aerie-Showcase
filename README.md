@@ -1,6 +1,8 @@
 # PXA.Aerie.Showcase
 
-<img src="docs/assets/aerie-logo.png" width="200" alt="PXA Aerie Logo" />
+<p align="center">
+  <img src="docs/assets/aerie-logo.png" width="200" alt="PXA Aerie Logo" style="margin-bottom: 16px;" />
+</p>
 
 > A curated architecture showcase for Aerie — Phoenix Ascend’s modular developer framework.
 
@@ -10,7 +12,7 @@ This showcase was created to help clients, partners, and engineering leads evalu
 
 ---
 
-## 🌿 What’s Included
+## 🧩 What’s Included
 
 - **PXA.Aerie.Lexicon** — centralized vocabulary for enum-like constants, exception messages, and regular expressions accessed through the static `LexiconProvider` using swappable, interface-based lexicon modules  
 - **PXA.Aerie.Core** — foundational types like `MethodResult<T>`, `IDataRow`, and utility interfaces  
@@ -19,7 +21,7 @@ This showcase was created to help clients, partners, and engineering leads evalu
 
 ---
 
-## 🛡 What’s Not Included
+## 🚫 What’s Not Included
 
 This is a showcase only. Full Aerie internals such as:  
 - `PXA.Aerie.Nest` (request flow patterns)  
@@ -29,7 +31,7 @@ This is a showcase only. Full Aerie internals such as:
 
 ---
 
-## 🧭 Purpose
+## 🎯 Purpose
 
 Aerie isn’t just a framework. It’s a **toolkit for crafting software that matters**.
 
@@ -39,9 +41,12 @@ Whether you’re evaluating Phoenix Ascend for a project or just exploring new w
 
 ---
 
-## 🕊️ About phoenix ascend
+<h2>
+  <img src="docs/assets/pxa-circle-logo.png" width="20" alt="🔥" style="vertical-align: middle;" />
+  About phoenix ascend
+</h2>
 
-![Phoenix Ascend Logo](docs/assets/pxa-circle-logo.png)
+
 
 Aerie is developed and maintained by [phoenix ascend](https://www.phoenixascend.com), a software consultancy focused on clean architecture, developer clarity, and meaningful modular systems.
 
