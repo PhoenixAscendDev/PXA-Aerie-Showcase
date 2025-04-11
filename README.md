@@ -1,8 +1,12 @@
 # PXA.Aerie.Showcase
 
+![Aerie Logo](docs/assets/aerie-logo.png)
+
 > A curated architecture showcase for Aerie — Phoenix Ascend’s modular developer framework.
 
 This repository provides a public demonstration of **Aerie**, a modular architecture system developed by Phoenix Ascend. Aerie is a developer toolkit crafted for teams who believe software should be intentional, not accidental. It includes a subset of reusable components, utility types, and example Plumes to highlight the intentionality, modularity, and naming principles that guide our software design.
+
+This showcase was created to help clients, partners, and engineering leads evaluate Aerie’s architecture and coding standards — without exposing Phoenix Ascend’s proprietary app internals. It reflects our commitment to craftsmanship, structure, and clean extensibility across projects.
 
 ---
 
@@ -35,5 +39,12 @@ Whether you’re evaluating Phoenix Ascend for a project or just exploring new w
 
 ---
 
-For more information, visit [phoenixascend.com](https://www.phoenixascend.com)
+## 🕊️ About phoenix ascend
 
+![Phoenix Ascend Logo](docs/assets/pxa-circle-logo.png)
+
+Aerie is developed and maintained by [phoenix ascend](https://www.phoenixascend.com), a software consultancy focused on clean architecture, developer clarity, and meaningful modular systems.
+
+**Crafting Software that Matters.**
+
+For branding, consulting, or collaboration inquiries, visit us at [phoenixascend.com](https://www.phoenixascend.com).
