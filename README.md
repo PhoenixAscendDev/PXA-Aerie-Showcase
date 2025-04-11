@@ -8,7 +8,24 @@
 
 This repository provides a public demonstration of **Aerie**, a modular architecture system developed by Phoenix Ascend. Aerie is a developer toolkit crafted for teams who believe software should be intentional, not accidental. It includes a subset of reusable components, utility types, and example Plumes to highlight the intentionality, modularity, and naming principles that guide our software design.
 
-This showcase was created to help clients, partners, and engineering leads evaluate Aerie’s architecture and coding standards — without exposing Phoenix Ascend’s proprietary app internals. It reflects our commitment to craftsmanship, structure, and clean extensibility across projects.
+---
+## Design Principles
+
+Aerie prioritizes structure, clarity, and extensibility over shortcuts or assumptions.  
+All public behaviors are designed to be testable, modular, and intentional.
+
+### 🔑 Key Normalization Behavior
+
+Lexicon keys are normalized to uppercase using `ToUpperInvariant()` during construction.
+
+This means:
+- All key lookups are **case-insensitive**
+- Keys like `"email"`, `"EMAIL"`, and `"Email"` are treated as the **same**
+- If multiple casing variants are provided, **the last one wins**
+
+This behavior is **intentional**.  
+It reflects Aerie’s design principle of predictable structure and consistent lookup — regardless of how input data is sourced or formatted.
+
 
 ---
 
