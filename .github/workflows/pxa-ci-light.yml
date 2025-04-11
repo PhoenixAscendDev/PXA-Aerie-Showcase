@@ -32,8 +32,7 @@ jobs:
       - name: 📊 Convert Coverage to HTML
         run: |
           dotnet tool install --global dotnet-reportgenerator-globaltool
-          reportgenerator -reports:**/coverage.cobertura.xml -targetdir:coverage -reporttypes:HtmlInline_AzurePipelines;Cobertura
-
+          reportgenerator -reports:**/coverage.cobertura.xml -targetdir:coverage -reporttypes:"HtmlInline_AzurePipelines;Cobertura"
       - name: 📤 Upload Coverage Report
         uses: actions/upload-artifact@v4
         with:
