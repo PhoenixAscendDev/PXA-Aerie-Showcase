@@ -1,6 +1,6 @@
 # PXA.Aerie.Showcase
 
-![Aerie Logo](docs/assets/aerie-logo.png)
+<img src="docs/assets/aerie-logo.png" width="200" alt="PXA Aerie Logo" />
 
 > A curated architecture showcase for Aerie — Phoenix Ascend’s modular developer framework.
 
