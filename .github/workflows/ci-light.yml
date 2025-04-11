@@ -8,6 +8,6 @@ on:
 
 jobs:
   build:
-   uses: PhoenixAscendDev/PXA-DevOps/.github/workflows/pxa-gha-ci-light.yml@main
+    uses: PhoenixAscendDev/PXA-DevOps/.github/workflows/pxa-gha-ci-light.yml@main
     with:
       dotnet-version: '8.0.x'
