@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PXA.Aerie.Core", "src\PXA.Aerie.Core\PXA.Aerie.Core.csproj", "{C79CDA78-3E22-4F77-AF36-E3AE42AF0047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PXA.Aerie.Lexicon", "src\PXA.Aerie.Lexicon\PXA.Aerie.Lexicon.csproj", "{A466A7AE-195A-4B53-9745-9B786EE9EF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PXA.Aerie.LogPlume", "src\PXA.Aerie.LogPlume\PXA.Aerie.LogPlume.csproj", "{1045DAAF-E577-4310-BA72-CC063EA74E9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PXA.Aerie.Lexicon.Test.xUnit", "test\PXA.Aerie.Lexicon.Test.xUnit\PXA.Aerie.Lexicon.Test.xUnit.csproj", "{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C79CDA78-3E22-4F77-AF36-E3AE42AF0047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79CDA78-3E22-4F77-AF36-E3AE42AF0047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79CDA78-3E22-4F77-AF36-E3AE42AF0047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79CDA78-3E22-4F77-AF36-E3AE42AF0047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A466A7AE-195A-4B53-9745-9B786EE9EF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A466A7AE-195A-4B53-9745-9B786EE9EF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A466A7AE-195A-4B53-9745-9B786EE9EF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A466A7AE-195A-4B53-9745-9B786EE9EF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1045DAAF-E577-4310-BA72-CC063EA74E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1045DAAF-E577-4310-BA72-CC063EA74E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1045DAAF-E577-4310-BA72-CC063EA74E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1045DAAF-E577-4310-BA72-CC063EA74E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCD96007-20B8-40F2-B440-66E751E1B7D9}
+	EndGlobalSection
+EndGlobal
