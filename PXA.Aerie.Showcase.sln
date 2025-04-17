@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PXA.Aerie.Lexicon.Test.xUnit", "test\PXA.Aerie.Lexicon.Test.xUnit\PXA.Aerie.Lexicon.Test.xUnit.csproj", "{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PXA.Aerie.Core.Test", "test\PXA.Aerie.Core.Test\PXA.Aerie.Core.Test.csproj", "{252FFB31-A22F-4F0D-B113-4A5ECC29BC9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +37,17 @@ Global
 		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252FFB31-A22F-4F0D-B113-4A5ECC29BC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252FFB31-A22F-4F0D-B113-4A5ECC29BC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252FFB31-A22F-4F0D-B113-4A5ECC29BC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252FFB31-A22F-4F0D-B113-4A5ECC29BC9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DE3EE382-2B94-48AB-8BAB-60C6F20EB6F8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{252FFB31-A22F-4F0D-B113-4A5ECC29BC9A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCD96007-20B8-40F2-B440-66E751E1B7D9}
