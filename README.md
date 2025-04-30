@@ -1,4 +1,4 @@
-# aerie.Showcase
+# aerie.showcase
 
 <p align="center">
   <img src="docs/assets/aerie-logo.png" width="200" alt="PXA Aerie Logo" style="margin-bottom: 16px;" />
